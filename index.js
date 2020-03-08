@@ -23,14 +23,11 @@ function init(dorksList) {
 
 	var currentDork = 0;
 
-	var username = 'ipsbruno3110';
-	var password = '3110Bruno';
 
 	var cook = [];
 
 
 	process.on('uncaughtException', function(err) {
-		console.log(err, ' Erro ao resolver captcha')
 		if (dorksList[currentDork])
 			googleSearch(dorksList[currentDork], 0)
 	});
