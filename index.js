@@ -151,7 +151,7 @@ function chunk(arr, len) {
 function getRandomProxy() {
 
 	var username = 'lum-customer-hl_b2129179-zone-zone1-route_err-pass_dyn';
-	var password = '094xbt7fp8so';
+	var password = 'SENHA';
 	var port = 22225;
 	var session_id = (Math.random() * 20000) | 0;
 	return ('http://' + username + '-session-' + session_id + ':' + password + '@zproxy.lum-superproxy.io:' + port)
